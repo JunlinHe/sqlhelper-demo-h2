@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tbl_demo (
+   id 			INT IDENTITY PRIMARY KEY
+  ,name		    VARCHAR(255)
+);

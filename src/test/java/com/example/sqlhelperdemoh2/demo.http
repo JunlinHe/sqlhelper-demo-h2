@@ -1,0 +1,15 @@
+### 插入数据
+POST http://localhost:8080/demo
+Content-Type: application/json
+
+{
+  "name": "lin"
+}
+
+### 分页查询
+GET http://localhost:8080/demo/page
+Accept: application/json
+
+### 根据id查询
+GET http://localhost:8080/demo/1
+Accept: application/json
